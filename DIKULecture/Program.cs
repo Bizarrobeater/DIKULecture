@@ -6,7 +6,8 @@ namespace DIKULecture
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Lecture lecture = new Lecture("Test");
+            Console.WriteLine(lecture);
         }
     }
 }
