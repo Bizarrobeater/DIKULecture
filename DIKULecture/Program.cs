@@ -6,8 +6,8 @@ namespace DIKULecture
     {
         static void Main(string[] args)
         {
-            Lecture lecture = new Lecture("Test");
-            Console.WriteLine(lecture);
+            Speaker test = new Speaker("Hans", "Datalog", 45);
+            Console.WriteLine(test.GetType().Name);
         }
     }
 }

@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DIKULecture
+﻿namespace DIKULecture
 {
     class Person
     {
-        string name;
-        string occupation;
-        int age;
+        internal string name;
+        internal string occupation;
+        internal int age;
 
         public Person(string name, string occupation, int age)
         {
@@ -16,5 +12,7 @@ namespace DIKULecture
             this.occupation = occupation;
             this.age = age;
         }
+
+        public string GetName() => name;
     }
 }

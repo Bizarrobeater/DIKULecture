@@ -8,7 +8,7 @@ namespace DIKULecture
     {
         private string name;
 
-        public string GetName() => name;
+        public string GetName { get { return name; } }
         public void SetName(string name) => this.name = name;
         public ChatRoom(string name)
         {
